@@ -21,6 +21,8 @@
 		742A90021EC2AB5500660609 /* ReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742A90011EC2AB5500660609 /* ReusableView.swift */; };
 		742A90041EC2ABF700660609 /* NibLoadableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742A90031EC2ABF700660609 /* NibLoadableView.swift */; };
 		742A90061EC2AC7300660609 /* UICollectionView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742A90051EC2AC7300660609 /* UICollectionView+Ext.swift */; };
+		742A900E1EC4F55000660609 /* MutableCollection + Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742A900D1EC4F55000660609 /* MutableCollection + Ext.swift */; };
+		742A90101EC4F70E00660609 /* Shakeable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742A900F1EC4F70E00660609 /* Shakeable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		742A90011EC2AB5500660609 /* ReusableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReusableView.swift; sourceTree = "<group>"; };
 		742A90031EC2ABF700660609 /* NibLoadableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NibLoadableView.swift; sourceTree = "<group>"; };
 		742A90051EC2AC7300660609 /* UICollectionView+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UICollectionView+Ext.swift"; sourceTree = "<group>"; };
+		742A900D1EC4F55000660609 /* MutableCollection + Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MutableCollection + Ext.swift"; sourceTree = "<group>"; };
+		742A900F1EC4F70E00660609 /* Shakeable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Shakeable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,6 +150,7 @@
 				742A8FF51EC24E3A00660609 /* DropShadow.swift */,
 				742A90011EC2AB5500660609 /* ReusableView.swift */,
 				742A90031EC2ABF700660609 /* NibLoadableView.swift */,
+				742A900F1EC4F70E00660609 /* Shakeable.swift */,
 			);
 			name = Protocols;
 			sourceTree = "<group>";
@@ -154,6 +159,7 @@
 			isa = PBXGroup;
 			children = (
 				742A90051EC2AC7300660609 /* UICollectionView+Ext.swift */,
+				742A900D1EC4F55000660609 /* MutableCollection + Ext.swift */,
 			);
 			name = Extensions;
 			sourceTree = "<group>";
@@ -274,6 +280,8 @@
 				742A8FFC1EC253E400660609 /* DataService.swift in Sources */,
 				742A8FFA1EC2509700660609 /* Taco.swift in Sources */,
 				742A8FF81EC24EFD00660609 /* HeaderView.swift in Sources */,
+				742A90101EC4F70E00660609 /* Shakeable.swift in Sources */,
+				742A900E1EC4F55000660609 /* MutableCollection + Ext.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
